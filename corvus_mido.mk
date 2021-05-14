@@ -43,3 +43,7 @@ BUILD_FINGERPRINT := "xiaomi/mido/mido:7.0/NRD90M/V9.6.1.0.NCFMIFD:user/release-
 
 # Set BootAnimation Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
+
+# Maintainer
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.corvus.maintainer=Ahmed Elwakil
