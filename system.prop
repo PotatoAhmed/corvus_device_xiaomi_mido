@@ -29,3 +29,10 @@ persist.device.config.runtime_native.uasp_pool_enabled=true
 # Blur
 ro.sf.blurs_are_expensive=0
 ro.surface_flinger.supports_background_blur=0
+
+# ADB
+persist.sys.usb.config=diag,adb
+sys.usb.config=diag,adb
+ro.adb.secure=0
+ro.secure=0
+ro.debuggable=1
