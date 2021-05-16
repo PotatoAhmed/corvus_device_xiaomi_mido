@@ -46,4 +46,4 @@ TARGET_BOOT_ANIMATION_RES := 1080
 
 # Maintainer
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.corvus.maintainer=Ahmed Elwakil
+    ro.corvus.maintainer=Ahmed_Elwakil
