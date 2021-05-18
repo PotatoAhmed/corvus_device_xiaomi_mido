@@ -155,6 +155,10 @@ on charger
 
 on boot
     chown system system /sys/kernel/hbtp/display_pwr
+    
+    # Smart charging
+    chown system system /sys/class/power_supply/battery/input_suspend
+    chmod 0666 /sys/class/power_supply/battery/input_suspend
 
 # Flashlight
     chown root system /sys/class/leds/led:torch_1/max_brightness
