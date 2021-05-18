@@ -14,7 +14,11 @@
 # limitations under the License.
 #
 
-ifeq ($(TARGET_DEVICE),mido)
+LOCAL_PATH := $(call my-dir)
+
+ifeq ($(TARGET_DEVICE),$(filter $(TARGET_DEVICE),mido))
+include $(call all-makefiles-under,$(LOCAL_PATH))
+endif 
 
 include $(call all-subdir-makefiles)
 
